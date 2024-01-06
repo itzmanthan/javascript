@@ -37,4 +37,4 @@ const regularuser={
         }
     }
 }
-console.log(regularuser);
+console.log(regularuser.fullname.userfullname.firstname);
