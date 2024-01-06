@@ -13,5 +13,9 @@ const jsuser={
     name:"Manthan",
     "full name":"Manthan Bhardwaj",
     [mysum]:"mykey1",
-    
+    age:18,
+    location:"jaipur",
+
 }
+console.log(jsuser);
+
