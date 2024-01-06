@@ -8,14 +8,23 @@
 
 //objects------///
  
-const mysum=Symbol("key1")
-const jsuser={
-    name:"Manthan",
-    "full name":"Manthan Bhardwaj",
-    [mysum]:"mykey1",
-    age:18,
-    location:"jaipur",
+//const mysum=Symbol("key1")
+//const jsuser={
+   // name:"Manthan",
+    //"full name":"Manthan Bhardwaj",
+    //[mysum]:"mykey1",
+    //age:18,
+    //location:"jaipur",
 
-}
-console.log(jsuser);
+//}
+//console.log(jsuser);
+
+//const tinderuse=new object()
+const tinderuser={}
+tinderuser.id="1234abc"
+tinderuser.name="sammy"
+tinderuser.isloggedIn= false
+
+console.log(tinderuser);
+
 
