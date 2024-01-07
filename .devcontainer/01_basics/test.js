@@ -28,13 +28,23 @@ tinderuser.isloggedIn= false
 console.log(tinderuser);
 
 
-const regularuser={
-    email:"manthan@gmail.com",
-    fullname:{
-        userfullname:{
-            firstname:"Manthan",
-            lastname:"Bhardwaj"
-        }
-    }
+//const regularuser={
+ //   email:"manthan@gmail.com",
+ //   fullname:{
+   //     userfullname:{
+   //         firstname:"Manthan",
+   //         lastname:"Bhardwaj"
+ //       }
+  //  }
+//}
+//console.log(regularuser.fullname.userfullname.firstname);
+
+const course={
+     coursename:"javascript",
+     price:"999",
+     courseinstructor:"code aur chai"
+
 }
-console.log(regularuser.fullname.userfullname.firstname);
+//course.courseinstructor
+const{courseinstructor}=course
+console.log(courseinstructor);
