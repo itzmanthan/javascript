@@ -39,10 +39,11 @@ console.log(tinderuser);
 //}
 //console.log(regularuser.fullname.userfullname.firstname);
 
+
 const course={
-     coursename:"javascript",
-     price:"999",
-     courseinstructor:"code aur chai"
+  coursename:"javascript",
+  price:"999",
+  courseinstructor:"code aur chai"
 
 }
 //course.courseinstructor
