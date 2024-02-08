@@ -40,12 +40,12 @@ console.log(tinderuser);
 //console.log(regularuser.fullname.userfullname.firstname);
 
 
-const course={
-  coursename:"javascript",
-  price:"999",
-  courseinstructor:"code aur chai"
 
-}
-//course.courseinstructor
-const{courseinstructor}=course
-console.log(courseinstructor);
+
+
+const tinderuser={}
+tinderuser.id="1234abc"
+tinderuser.name="sammy"
+tinderuser.isloggedIn= false
+
+console.log(tinderuser);
